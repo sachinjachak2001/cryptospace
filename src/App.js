@@ -25,16 +25,16 @@ function App() {
                 <HomePage />
               </Route>
               <Route exact path="/exchanges">
-                Exchanges
+                <Exchanges />
               </Route>
               <Route exact path="/cryptoCurrencies">
-                CryptoCurrencies
+                <CryptoCurrencies />
               </Route>
               <Route exact path="/crypto/:coinId">
-                CryptoDetails
+                <CryptoDetails />
               </Route>
               <Route exact path="/news">
-                News
+                <News />
               </Route>
             </Switch>
           </div>
